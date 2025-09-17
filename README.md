@@ -1,2 +1,4 @@
 # TAREA-PROGRAMACION-3-
-Trea de programacion
+Tarea de programacion en lenguaje C
+
+(づ￣ 3￣)づ
