@@ -3,7 +3,8 @@
 int count_pulses(int signals[], int size);
 
 // Test case en main()
-int main() {
+int main() 
+{
     int test1[] = {0, 1, 0, 1, 0, 1, 0};
     int test2[] = {1, 1, 1, 1, 1};
     int test3[] = {0, 0, 0, 0};
@@ -14,13 +15,14 @@ int main() {
     return 0;
 }
 
-int count_pulses(int signals[], int size){
-
+int count_pulses(int signals[], int size)
+{
+    int contador=0;
     for (int i = 0; i < size; i++){
         if (signals[i]==1){
-            return signals[i];
+            contador++;
         }
 
     }
-
+    return contador;
 }
